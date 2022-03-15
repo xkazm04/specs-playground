@@ -4,16 +4,16 @@
 
 Column | Data type | Description | Example
 ---------|----------|---------|-------
- name | string|  Short service name | Mint NFT
- description| string | One sentence description | Increase supply of non-fungible token.
- operation | string | unique operationId of service | mintNft 
- endpoint | string | service endpoint | /nft/mintNFt 
- category | enum | logical category group| nft 
- subcategory | string | detail service categorization| Token operations 
- supported | object | JSON with supported chains| {"ADA":"true"} 
- docs | string | link to API docs| https://docs.tatum.io/rest/smart-contracts/mint-nft 
- credit | string | Tatum credit evaluation | 5 
- free | boolean | Credit type consumed| false 
+ `name` | string|  Short service name | Mint NFT
+ `description`| string | One sentence description | Increase supply of non-fungible token.
+ `operation` | string | unique operationId of service | mintNft 
+ `endpoint` | string | service endpoint | /nft/mintNFt 
+ `category` | enum | logical category group| nft 
+ `subcategory` | string | detail service categorization| Token operations 
+ `supported` | object | JSON with supported chains| {"ADA":"true"} 
+ `docs` | string | link to API docs| https://docs.tatum.io/rest/smart-contracts/mint-nft 
+ `credit` | string | Tatum credit evaluation | 5 
+ `free` | boolean | Credit type consumed| false 
 
 ### Category
 Enum represents logical categories Dev portal is working with inside its content:
