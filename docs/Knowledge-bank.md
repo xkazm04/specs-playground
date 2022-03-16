@@ -15,7 +15,7 @@ Attribute | Data type | Example
  `useCaseType` | string (enum) | Input
  `chatbotId` | B3 | C3
  `label` | string | Question
- `reference` | string TBD | URL reference
+ `reference` | string TBI | URL reference
 
 > Need to implement reference, it could server as integration connector to another apps in addition to chatbotId
 
