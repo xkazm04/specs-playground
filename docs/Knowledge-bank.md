@@ -69,7 +69,5 @@ Tool to navigate user inside vast documentation
 ```
 
 ## Tooling
-Script Excel to Json
 
 ## Automation process 
-???
