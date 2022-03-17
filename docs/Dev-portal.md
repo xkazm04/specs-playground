@@ -4,7 +4,18 @@
 - **Deployment guide:**  https://docs.google.com/document/d/1EPaWzWl8_7vn1NriKqd1cpUGMbedDj5uRdKcm2wljNw/edit#heading=h.9583zrq68fqy
 - **Available at:** https://docs.tatum.io/ 
 
+
+## High level architecture
 ![image.png](https://stoplight.io/api/v1/projects/cHJqOjExMTMxNA/images/f7wcV4BbB78)
+
+Dev portal works as client-only app with techstack:
+- `Next.js 12.x.x` - Main FE framework, leverages React and JavaScript patterns with addition of several optimizations like caching static content during build time to spare performance 
+- `Tailwind 3.x.x` - Styling class library to simplify traditional css and amount of written code 
+- `TypeScript 4.x.x` - To work with type interfaces accross the application
+- `axios`/`fetch` - To process API calls 
+
+
+## Logical modules
 
 Developer portal was created to merge and replace multiple documentation sources used in Tatum separated in several modules:
 - **API references** rendered via **Stoplight studio** (3rd party tool)
@@ -19,16 +30,25 @@ Descoped modules waiting for implementation:
 - **GraphqQL** - DataAPI documentation with gql playground to explore exposed data
 - **Buidl buddy** - Tool to guide user through docs and pick services based on demanded use case
 
-## UI Design
-Original design could be found at [Tatum Figma project](https://www.figma.com/file/zyaCU2Qr1R0sSXcNaKQBy7/Tatum-%7C-Devportal?node-id=2871%3A44952)
+## Local development
+```console
+$ git clone https://gitlab.com/tatum-io/websites/docs.git
 
-High probability of redesign after setting new brand guidelines 
+npm install
+
+npm run dev
+```
 
 ## Deployment
 Dev portal app client currently deployed on Heroku, to gain access ask Pavel Franc. 
 - Deployment process currently is manual
 - Current PR approvers: Oleg Antonyak, Jan Dočekal, Michal Každan
 - Heroku access: Pavel France, Jan Dočekal, Michal Každan
+
+## UI Design
+Original design could be found at [Tatum Figma project](https://www.figma.com/file/zyaCU2Qr1R0sSXcNaKQBy7/Tatum-%7C-Devportal?node-id=2871%3A44952)
+
+High probability of redesign after setting new brand guidelines 
 
 ## Repo structure
 
