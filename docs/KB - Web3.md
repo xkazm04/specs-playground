@@ -84,13 +84,14 @@ There are a lot of CC tools you can use, for each programming language. For exam
 Update the tests if there are no areas of code that have not been exercised. Developers can check CC reports to advise additional tests to increase the CC.
 **Important:** The process can slow down the application so it is not recommended to do it in production.
 
-## Common Pitfalls of the Code Coverage
+## Common Pitfalls of Web 3.0 development
 
-- Developers write useless tests to reach 100% CC.
-- A developer corrects the functionality but does not correct the test. That means that a wrong test can fool the CC.
-- A deveoper writes new code and applies wrong tests. The CC declines.
+- Lack of tooling and best practices
+- Smart contracts built ineffectively to consume lot of gas fee to operate with
+- Maturity of Solidity programming language allows security vulnerabilities needed to cover
 
-## Resources for the Code Coverage
+
+## Resources for web3
 
 - tools
 - guides
