@@ -19,32 +19,42 @@ You can find more information about content types builder [here](https://strapi.
 
 ## How to create article
 
-1. Write something cool
+Write something cool with online editors like [Dillinger](https://dillinger.io/) or rather [DXH Markdown editor](url)
 
-*You can use online editors like [Dillinger](https://dillinger.io/)  or rather [DXH Markdown editor](url)*
+Flavored elements
+Class | Usecase | 
+---------|----------|
+ toolbar-note | Blue toolbox  
+ toolbar-tip | Green toolbox 
+ toolbar-warning | Red toolbox 
+ toolbar-caution | Yellow toolbox
+ codeblock | Tabbed code example
+ youtube-url | Embedded youtube video
 
-TBD - DXH editor still not deployed 
+Examples: 
+<div class="toolbar-note">
+You can find more information about content types builder [here](https://strapi.io/features/content-types-builder).
+</div>
+
+<div class="codeblock">
+```Code item 1
+{"json1":"value1"}
+```
+```Code item 2
+{"json2":"value2"}
+```
+</div>
 
 ### Current usage in Dev portal
 
 #### Markdown guides
-Guides and tutorials coming from CMS could be flavoured with additional visual elements not existing in basic Markdown syntax
+Guides and tutorials coming from CMS could be flavoured with additional visual elements not existing in basic Markdown syntax.
 
-
-Flavored elements
-Class | Usecase | Example
----------|----------|---------
- toolbar-note | B1 | C1
- toolbar-tip | B2 | C2
- toolbar-warning | B3 | C3
- toolbar-caution | B3 | C3
- codeblock | B3 | C3
- youtube-url | B3 | C3
-
-
- TBD Honza show examples
-
-
+Categories broke down into collections
+- **Guides-virtual** = Guides related to [Virtual accounts](https://docs.tatum.io/guides/ledger-and-off-chain/how-to-support-fiat-currencies)
+- **Guides-blockchain** = Blockchain specific [articles](https://docs.tatum.io/guides/blockchain/how-to-send-a-bitcoin-transaction)
+- **Introduction** = Articles accessible from main page
+- **Tutorials** = [Tutorials](https://docs.tatum.io/tutorials/how-to-create-a-peer-to-peer-nft-auction)
 
 #### Release log
 
@@ -53,26 +63,48 @@ There is a specific template in this log and it is necessary to specify mandator
 
 ![50CSHzew2O.png](https://stoplight.io/api/v1/projects/cHJqOjExMTMxNA/images/PYUnQKQjjQM)
 
-
 #### Terminology
 
 The world of blockchain is specific and contains dozens of different terms that new users may not understand. Therefore, via CMS we manage teminology dictionary, which contains explained most used terms.
 
-The structure of the template is very simple. It contains only parameters (all mandatory) `Title`, `Description` and `Category` of new term.
+The structure of CMS template is very simple. It contains only parameters (all mandatory) `Title`, `Description` and `Category` of new term.
 
 ![5ehqGB3PhK.png](https://stoplight.io/api/v1/projects/cHJqOjExMTMxNA/images/wwfAA1AKjp8)
 
 
-#### Guides & Tutorials
-TBD Honza
 #### Websockets
-TBD Honza 
+
+Section describing how to use Tatum WebSockets with interactive playground and list of all supported methods.
+
+From CMS perspective:
+- `title` = Display name in left menu
+- `slug` = Defined URL. Mandatory not to use 
+- `markdown` = Article content
+- `category` = Section in left menu where to put article (json-rpc method, pub-sub method, general article)
+- `requestPlayground` = Example to be prefilled in Websocket playground
+- `blockchain` = Method supported for specific blockchain (evm = common option for Ethereum like chains or non specific methods)
+
+
+#### Product
+Product collection is being used to map all API endpoints inside Tatum and reuse the knowledge for general overview on main page and FAQ section to guide internal/external users
+
+- `operation` - Unique operation id defined in openapi specs
+- `docs` - Reference inside api documentation
+- `name` - Service name displayed in main overview
+- `credit` - credit cost of given service
+- `endpoint` - API endpoint used for service
+- `description` - Short description of the service
+- `category` - Logical categorization used for main overview
+- `subcategory` - Logical subcategorization to specify service further
+- `supported` - JSON as table with supported chains per service 
+- `free` - Flag to identify whether to consume "free" credits or "premium"
 
 ---
 
 ## How to use CMS at Tatum
 
-Using CMS is divided into two basic options according to the granted permission. Content Manager is a section that is used to fill data while Content-Type Builder is used to create templates for individual documents.
+Using CMS is divided into two basic options according to the granted permission. `Content Manager` is a section that is used to fill data while `Content-Type Builder` is used to create templates for individual documents.
+
 Let's start with the simpler and more used one.
 
 ### Content Manager quick guide
