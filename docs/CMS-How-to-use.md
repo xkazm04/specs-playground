@@ -1,4 +1,4 @@
-# Strapi CMS at Tatum
+# Strapi CMS 
 
 Initial document to describe concept how to use Strapi in Tatum Dev portal or any other web product.
 
