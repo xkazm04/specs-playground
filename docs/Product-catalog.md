@@ -13,6 +13,7 @@ Column | Data type | Description | Example
  `supported` | object | JSON with supported chains| {"ADA":"true"} 
  `docs` | string | link to API docs| https://docs.tatum.io/rest/smart-contracts/mint-nft 
  `credit` | string | Tatum credit evaluation | 5 
+ `method`| enum| API method - GET, POST, PUT, DELETE
  `free` | boolean | Credit type consumed| false 
 
 ### Category
