@@ -24,11 +24,11 @@ Write something cool with online editors like [Dillinger](https://dillinger.io/)
 Flavored elements
 Class | Usecase | 
 ---------|----------|
- toolbar-note | Blue toolbox  
- toolbar-tip | Green toolbox 
+ toolbar-note | Green toolbox  
+ toolbar-tip | Blue toolbox 
  toolbar-warning | Red toolbox 
  toolbar-caution | Yellow toolbox
- codeblock | Tabbed code example
+ tabbed-code-blocks | Tabbed code example
  youtube-url | Embedded youtube video
 
 Examples: 
@@ -36,7 +36,7 @@ Examples:
 You can find more information about content types builder [here](https://strapi.io/features/content-types-builder).
 </div>
 
-<div class="codeblock">
+<div class="tabbed-code-blocks">
 ```Code item 1
 {"json1":"value1"}
 ```
