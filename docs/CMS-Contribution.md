@@ -19,7 +19,7 @@ You can find more information about content types builder [here](https://strapi.
 
 ## How to create article
 
-Write something cool with online editors like [Dillinger](https://dillinger.io/) or rather [DXH Markdown editor](url)
+Write something cool with online editors like [Dillinger](https://dillinger.io/) or rather [DXH Markdown editor](https://happy-blackwell-bcd781.netlify.app/)
 
 Flavored elements
 Class | Usecase | 
@@ -44,6 +44,9 @@ You can find more information about content types builder [here](https://strapi.
 {"json2":"value2"}
 ```
 </div>
+
+<div youtube-url="https://www.youtube.com/watch?time_continue=209&v=CGgyyTTv0yw&feature=emb_title&ab_channel=Tatum"></div>
+
 
 ### Current usage in Dev portal
 
