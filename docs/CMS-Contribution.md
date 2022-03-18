@@ -102,6 +102,13 @@ Product collection is being used to map all API endpoints inside Tatum and reuse
 - `supported` - JSON as table with supported chains per service 
 - `free` - Flag to identify whether to consume "free" credits or "premium"
 
+#### Announcement
+Collection to push news, announcements or marketing offers via CMS to Dashboard v2 or Developer portal news feed. Data structure:
+- `title` - Announcement title (short text)
+- `description` - Content of announcement (rich text)
+- `type` - Announcement to display different color/icon (enum)
+- `expiration` - Time until visible in Dashboard/Dev portal 
+
 ---
 
 ## How to use CMS at Tatum
