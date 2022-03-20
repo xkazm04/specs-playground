@@ -13,3 +13,16 @@ https://github.com/smartbugs/smartbugs
 
 ## Front running attacks
 https://www.leewayhertz.com/best-practices-for-ethereum-smart-contract/
+
+## Re-entrancy 
+- 
+https://solidity-by-example.org/hacks/re-entrancy/
+
+1. Let's say that contract A calls contract B.
+2. Reentracy exploit allows B to call back into A before A finishes execution.
+
+
+- Ensure all state changes happen before calling external contracts
+- Use function modifiers that prevent re-entrancy
+- PullPayment - Best practice to send ether
+- ReentrancyGuard
