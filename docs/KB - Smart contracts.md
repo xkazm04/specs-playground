@@ -110,6 +110,14 @@ Update the tests if there are no areas of code that have not been exercised. Dev
 - Keep smart contracts simple and modularize
 - Prefer clarity over performance
 - Stay updated
+- Be aware how gas costs works
+
+## Fundamental tradeoffs
+- Duplication vs Reusing 
+- Monolithic (readable) vs Modular (optimal) architecture
+- Rigid (safe) vs Upgradable contracts
+
+
 
 
 ## Resources for web3
