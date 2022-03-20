@@ -103,6 +103,14 @@ Update the tests if there are no areas of code that have not been exercised. Dev
 - Financial apps vulnerable to security exploits
 - Tooling
 
+## Best practices
+- Be ready for failure (upgrade strategy)
+- Rollout through testing contracts
+- Unit tests
+- Keep smart contracts simple and modularize
+- Prefer clarity over performance
+- Stay updated
+
 
 ## Resources for web3
 
