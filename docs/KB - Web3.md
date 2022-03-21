@@ -16,11 +16,15 @@ author_github_username: xkazm04
 
 # Web3
 
-**TL;DR**
-
 It seems inevitable blockchain technologies knocking on the door with ambitions find a place in the world of development. Have you heard term **web3** and don't know what to expect? Let's find out :)
 
 ## What is web3
+
+Web3 or Web 3.0 is described as next evolutionary step in the way how web application works:
+
+- **web1** - Static running hosted on central storage
+- **web2** - Dynamic apps running on central storage or multiple at the same time (cloud)
+- **web3** - Dynamic apps running in decentralized publicly transparent network
 
 Definition of Web 3.0 related with cryptocurrencies was firstly idealized by Ethereum (2nd largest cryptocurrency) in 2014 as *decentralized digital infrastructure* with core principals to be designed:
 
@@ -28,40 +32,40 @@ Definition of Web 3.0 related with cryptocurrencies was firstly idealized by Eth
 - **Decentralized** - Running by peer-to-peer network
 - **Permissionless** - No governing mediator 
 
-**TBD image**
+![web3.png](https://stoplight.io/api/v1/projects/cHJqOjEyMDc0MQ/images/lXupgGDFcSk)
+*https://academy.moralis.io/blog/what-is-web3-web-3-0-explained*
 
-To achieve above paradigmas web application has to run instead of traditional infrastructure and backend services rather on [**Smart contract platforms**](TBD link), they provide set of mechanisms:
+To achieve above paradigma, application has to run instead of traditional infrastructure and backend services rather on [**Smart contract platforms**](TBD link) with provided set of technical and economic mechanisms:
 
 - How to motivate new peers to join network
 - How to write and deploy web3 applications
 - How to process transactions and scale them
 
 ### How it works
-- Browser
-- Wallet 
-- 
+1. Come with **business idea**
+2. **Choose platform/s** to work with 
+3. **Write smart contract** in language required by platform. Test them (unit tests, testnet)
+4. Write **UI** to smart contracts (React, Next, Svelte). User will interact with contract with blockchain wallet
+5. **Deploy** contract with related tooling. Transaction fee will be required based on chosen platform.
+6. Blockchain state machine will be updated after deployment and smart contracts become interactive, all its activity transparently stored on blockchain
 
-### Smart contract platforms
-Similarly to traditional web development your first decision would be probably to choose the right tech-stack where to start, market offers today dozens of platforms to use, different in criterias:
 
-- User adoption
-- Decentralization
-- Development tooling maturity
-- Smart contract programming language
+![image.png](https://stoplight.io/api/v1/projects/cHJqOjEyMDc0MQ/images/enzsVZYK0po)
 
 
 ## Why to develop web3 apps
 
-- Opens new possibities and use cases into your portfolio
-- Allows to adapt new technology area trendy in current decade
+- Open new possibities and use cases into your portfolio
+- Create existing web2 apps more effective in trustless manner
+- Find job and make money, web3 resources are more valuable then gold
 
 ## Problems web3 apps could solve
 
-Current decentralization and maturity level of whole ecosystem does not enable yet to use full potential Web 3.0 promises on paper - which should be:
-
-- Censorship
-- TBD Power from corporate entities to peer networks
-- [Meaningless work](/problems/meaningless-work)
+- Bad product market fit
+- Meaningless work
+- Increased cost
+- Unhappy clients
+- Unsuccessful product
 
 ## How to Implement web3 apps
 
