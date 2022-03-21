@@ -64,16 +64,11 @@ Categories broke down into collections
 Release log is currently used to inform users about new functionalities that Tatum releases over time.
 There is a specific template in this log and it is necessary to specify mandatory parameters: date of release, version of release and content (new functionalities, support for new blockchains,...)
 
-![50CSHzew2O.png](https://stoplight.io/api/v1/projects/cHJqOjExMTMxNA/images/PYUnQKQjjQM)
-
 #### Terminology
 
 The world of blockchain is specific and contains dozens of different terms that new users may not understand. Therefore, via CMS we manage teminology dictionary, which contains explained most used terms.
 
 The structure of CMS template is very simple. It contains only parameters (all mandatory) `Title`, `Description` and `Category` of new term.
-
-![5ehqGB3PhK.png](https://stoplight.io/api/v1/projects/cHJqOjExMTMxNA/images/wwfAA1AKjp8)
-
 
 #### Websockets
 
@@ -122,8 +117,6 @@ Let's start with the simpler and more used one.
 For business owners, the Content Manager section is primarily designed. This section is used to fill data according to specified templates.
 
 Let's take a look at this. Imagine that as a business owner you want to add a new article to the Tutorials section.
-
-![chrome_E60mfwnPqm.gif](https://stoplight.io/api/v1/projects/cHJqOjExMTMxNA/images/nB1Ov06vuuY)
 
 1. First of all, we have to create a new article. After creating a new article, you will see a pre-filled form according to the template, which is the same for all documents in the Tutorials section.
 2. Individual fields that can be filled will appear in the new entry. Whether an individual field is required or not is indicated by a red star next to the title.
